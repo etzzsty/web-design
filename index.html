@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majestic Cologne</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Saira:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Блок Хедер -->
+    <div class="header">
+        <div class="logo">Majestic Cologne</div>
+        <div class="nav-item">
+            <a href="#">Новини</a>
+        </div>
+        <div class="nav-item">
+            <a href="#">Бренди</a>
+        </div>
+        <div class="nav-item">
+            <a href="#">Контакти</a>
+        </div>
+        <input type="text" class="search-bar" placeholder="Пошук...">
+        <div class="icon shopping-bag"></div>
+        <div class="icon user-icon dropdown">
+            <!-- Випадаюче меню для іконки користувача -->
+            <ul class="dropdown-menu">
+                <li><a href="#">Профіль</a></li>
+                <li><a href="#">Налаштування</a></li>
+                <li><a href="#">Вихід</a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+    <!-- Основне Фото -->
+    <div class="main">
+        <div class="background-image"></div>
+        <div class="main-text">
+            <h1>МАГАЗИН ОРИГІНАЛЬНИХ ДУХІВ ПРЕМІУМ БРЕНДІВ</h1>
+        </div>
+        <div class="unique-text">Будь унікальним з нами</div>
+        <div class="collection-text">Нова колекція парфумів Jean Paul Gaultier</div>
+    </div>
+
+<!-- Блок з відео -->
+<div class="video-block">
+    <h2>Jean Paul Gaultier </h2>
+    <video  autoplay muted loop>
+        <source src="Jean Paul Gaultier LE MALE ELIXIR.mp4" >
+        <source src="Jean Paul Gaultier LE MALE ELIXIR.WebM"
+        Ваш браузер не підтримує відео.
+    </video>
+</div>
+
+    <!-- Блок Брендів -->
+    <div class="brand-block">
+        <div class="brand jean-paul"></div>
+        <div class="brand ysl"></div>
+        <div class="brand armani"></div>
+        <div class="brand chanel"></div>
+        <div class="brand dior"></div>
+    </div>
+
+  <!-- Блок з Фото Парфумів -->
+<div class="collection-background">
+    <h2>Наша Колекція</h2>
+    <div class="gradient-container">
+        <div class="gradient gradient-1"></div>
+        <div class="gradient gradient-2"></div>
+        <div class="gradient gradient-3"></div>
+        <div class="gradient gradient-4"></div>
+        <div class="gradient gradient-5"></div>
+    </div>
+    <div class="perfumes">
+        <div class="perfume dior-sauvage"></div>
+        <div class="perfume jpg-le-male"></div>
+        <div class="perfume versace-eros"></div>
+        <div class="perfume ysl-eud"></div>
+        <div class="perfume emporio-armani"></div>
+    </div>
+</div>
+  <!-- Блок з Ціниками Парфумів -->
+
+<div class="pricing-container">
+    <div class="pricing-box" id="price1">
+        <h3>50 мл</h3>
+        <p>Ціна: 2699 грн</p>
+        <p>Xs Флакон</p>
+    </div>
+    <div class="pricing-box" id="price2">
+        <h3>75 мл</h3>
+        <p>Ціна: 2999 грн</p>
+        <p>S Флакон</p>
+    </div>
+    <div class="pricing-box" id="price3">
+        <h3>100 мл</h3>
+        <p>Ціна: 3299 грн</p>
+        <p>M Флакон</p>
+    </div>
+    <div class="pricing-box" id="price4">
+        <h3>125 мл</h3>
+        <p>Ціна: 3599 грн</p>
+        <p>L Флакон</p>
+    </div>
+    <div class="pricing-box" id="pric5">
+        <h3>150 мл</h3>
+        <p>Ціна: 3999 грн</p>
+        <p>Xl Флакон</p>
+    </div>
+</div>
+
+
+    <!-- Блок "Про магазин" -->
+    <div class="about-store">
+        <div class="about-text">
+            <h2>Інтернет-магазин парфумів - те, що ти шукав</h2>
+            <p>Majestic Cologne – це інтернет-магазин парфумерії, який пропонує широкий асортимент вишуканих ароматів для чоловіків. У магазині представлені як класичні, так і сучасні парфуми від відомих світових брендів. Majestic Cologne забезпечує високу якість продукції, швидку доставку та відмінний сервіс, дозволяючи кожному клієнту знайти ідеальний аромат для себе або на подарунок. Магазин регулярно оновлює свій асортимент, додаючи новинки і популярні аромати, щоб задовольнити найвибагливіші смаки.</p>
+        </div>
+        <div class="about-image"></div>
+    </div>
+
+<!-- Окремий блок для форми зворотного зв'язку з фоном -->
+<div class="contact-form-block">
+    <h1>Контакти</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Ваші дані</legend>
+
+            <!-- Ім'я -->
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Телефон -->
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required>
+
+            <!-- Електронна пошта -->
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Повідомлення -->
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </fieldset>
+
+        <!-- Кнопка відправити -->
+        <button type="submit">Відправити</button>
+    </form>
+</div>
+
+
+    <!-- Футер -->
+<div class="footer">
+    <p>Наші соціальні мережі</p>
+    <div class="social-media-container">
+        <div class="social-media facebook"></div>
+        <div class="social-media tiktok"></div>
+        <div class="social-media telegram"></div>
+        <div class="social-media youtube"></div>
+        <div class="social-media instagram"></div>
+    </div>
+    <p class="footer-links">головна | контакти | оплата та доставка | новини | про нас</p>
+    <p class="copyright">© Majestic Cologne 2024 м. Львів вул. Зелена, 77-Б</p>
+</div>
